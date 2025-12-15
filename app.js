@@ -7,7 +7,7 @@ const port = 8080;
 app.use(express.static(path.join(__dirname, 'webroot')));
 
 app.listen(port, '0.0.0.0', () => {
-    console.log("Weatherscan XL by Mist Weather Media")
+    console.log("Weatherscan Local Made By Mist Weather Media")
     console.log(`Webroot serving on 127.0.0.1:${port}`);
   });
 
